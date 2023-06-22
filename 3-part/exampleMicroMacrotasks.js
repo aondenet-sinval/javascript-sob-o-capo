@@ -1,7 +1,9 @@
 console.log('script start')
+
 const interval = setInterval(() => {
   console.log('setInterval')
 }, 0)
+
 setTimeout(() => {
   console.log('setTimeout 1')
 
@@ -17,6 +19,7 @@ setTimeout(() => {
       }, 0)
     })
 }, 0)
+
 Promise.resolve()
   .then(() => console.log('promise 1'))
   .then(() => console.log('promise 2'))

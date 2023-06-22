@@ -22,3 +22,10 @@ const readFileAsync = (filePath) => {
     .then(console.log)
     .catch(console.error)
 })()
+// Verifique o bytecode descomentando abaixo
+// function valor() {
+//   readFileAsync(filePath)
+//     .then(console.log)
+//     .catch(console.error)
+// }
+// valor()
